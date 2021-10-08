@@ -43,4 +43,4 @@ Those are special words in Java that mean something quite important but let us n
 Want to learn more? Why not do so from [here](https://www.w3schools.com/java/default.asp)? 
 
 **My first program is not working. What could be the problem?**<br/>
-It is difficult to anticipate what problems you might have. However, when people just start out it is probably because they typed something incorrectly. Make sure to be very very careful and type out exactly what is in the code in this repository. 
+It is difficult to anticipate what problems you might have. However, when people just start out it is probably because they typed something incorrectly. Make sure to be very very careful and type out exactly what is in the code in this repository.
