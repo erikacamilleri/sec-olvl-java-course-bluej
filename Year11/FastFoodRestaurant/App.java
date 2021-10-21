@@ -7,9 +7,8 @@
 public class App
 {
     public static void main(String args[]) {
-        // Before starting our logic clear the terminal
-        System.out.print('\u000C');
-        
         FoodExpress.displayMenu();
+        int foodCode = FoodExpress.placeOrder();
+        FoodExpress.addFoodItemToCart(foodCode);
     }
 }
