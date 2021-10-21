@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class HelloWorld here.
+ * The first program that we write in Java
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Erika Camilleri
+ * @version 0.1
  */
 public class HelloWorld
 {
