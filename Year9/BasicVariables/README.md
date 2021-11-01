@@ -67,10 +67,11 @@ This means that you cannot do `score = 100.5` because score is declared as an `i
 
 <b>Pro Tip:</b> You can do a declaration and an assignment in one go. So instead of
 
-````
+```
 int score;
 score = 100;
 ```
+
 you can do
 
 `int score = 100;`
