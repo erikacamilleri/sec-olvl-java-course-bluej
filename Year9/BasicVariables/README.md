@@ -28,7 +28,7 @@ Short comments are written with // in the beginning.
 All interesting programs that do something useful must store data! Data comes in all kinds so every programming language offers a set of data types. Java offers a comprehensive set. The following are the ones that are used the most.
 
 - int (integers e.g. 56, 7, -2)
-- float (real numbers e.g. 2.5)
+- float (real numbers e.g. 2.5f)
 - double (larger real numbers e.g. 2000.00)
 - char (character e.g. 'A')
 - boolean (true or false)
@@ -38,8 +38,10 @@ All interesting programs that do something useful must store data! Data comes in
 Our little pieces of data will be stores in our computer's memory as the program is executing. It is very important that each location is given a name! It would be good to point out that the location is referred to as a *variable* and the process of giving it a name is called a *declaration*. Fancy!
 
 To declare a variable:
-- indicate the appropriate type
-- give it a name
+- indicate the appropriate type e.g. int
+- give it a name e.g. score
+
+`int score;`
 
 Some rules about naming variables:
 - the words you use cannot be keywords in the Java language
@@ -54,4 +56,25 @@ int cpuUsage;
 
 float temperature;
 ```
+
+# 1.5 Assigning values to variables
+
+We can assign a value to a variable that was declared in our program. Setting values is really easy. All you need to do is type the variable name, equals and type the value. Remember the value should be of the appropriate type.
+
+`score = 100;`
+
+This means that you cannot do `score = 100.5` because score is declared as an `int` and not a `double`.
+
+<b>Pro Tip:</b> You can do a declaration and an assignment in one go. So instead of
+
+````
+int score;
+score = 100;
+```
+you can do
+
+`int score = 100;`
+
+
+
 
