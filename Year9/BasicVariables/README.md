@@ -76,6 +76,22 @@ you can do
 
 `int score = 100;`
 
+# 1.6 Creating Constants
+
+There will be occasions where data items in a program would have values that should not change at any point during execution. We can list some examples:
+
+- The maximum score in an exam, which might be 100.
+- The number of hours in a day, which is 24.
+- The mathematical value of pi, which is around 3.14176
+
+The declaration and assignment of a constant works very similarly to a variable, just you need to add the `final` keyword before the *data type*.
+
+```
+final int HOURS_IN_A_DAY = 24;
+```
+
+Note that the name was written in all caps. This is the convention for constants in Java.
+
 
 
 
