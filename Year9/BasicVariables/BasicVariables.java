@@ -34,5 +34,25 @@ public class BasicVariables
         int points;
         // Assign a value
         points = 100;
+        
+        /**
+         * The opposite of a variable is a constant.
+         * This means once we assign a value it cannot change!
+         */
+        // Declaring a constant to store the temperature at boiling point
+        final double BOILING_POINT = 100.0;
+        
+        // Declaring a constant to store the value of pi
+        final double PI = 3.142;
+        
+        // Declaring a constant to store the hours in a day
+        final int HOURS_IN_A_DAY = 24;
+        
+        // Declaring constants to store traffic light state
+        final char RED_STATE = 'R'; // Traffic light Red means stop
+        
+        final char AMBER_STATE = 'A'; // Traffic light Amber means prepare
+        
+        final char GREEN_STATE = 'G'; // Traffic light Green means go
     }
 }

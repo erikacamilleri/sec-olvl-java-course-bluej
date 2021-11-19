@@ -13,6 +13,16 @@ public class AboutMyself
         
         char myFavouriteLetter = 'E';
         
+        final double HEIGHT = 5.1; // My height in feet
+        
+        double weight = 53; // My weight in kg
+        
+        String hairColour = "Blonde";
+        
+        String favouriteFood = "Curry";
+        
         System.out.println("This is a program I wrote to tell you about me. My name is Ms Camilleri.");
+        
+        System.out.println("My height is " + HEIGHT);
     }
 }
