@@ -1,15 +1,14 @@
-
 /**
  * In this lesson we are learning how to use various operators in Java.
  *
  * @author Ms Camilleri
- * @version (a version number or a date)
+ * @version 0.1
  */
 public class Operators
 {
     public static void main(String[] args) {
         /**
-         * 
+         * Let us try some Arithmetic Operators like +, -, *, / and %
          */
         // Declaring and assigning values to variables a, b and c.
         int a = 5;
@@ -37,7 +36,7 @@ public class Operators
         System.out.println("Given that a is 5 then a % a = " + (a % a));
         
         /**
-         * Let us experiment with Logical Operators like AND, OR
+         * Let us experiment with Logical Operators like AND, OR and NOT
          */
         boolean needHeavyRaincoat;
         
@@ -57,6 +56,5 @@ public class Operators
         boolean needLightRaincoat = isRaining || isCold;
         
         System.out.println("Do I need a light rain coat?" + needLightRaincoat);
-        
     }
 }
