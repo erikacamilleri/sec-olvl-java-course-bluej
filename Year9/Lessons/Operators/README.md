@@ -67,10 +67,10 @@ Returns remainder after integer division. Some examples:
 
 # Logical Operators
 
-| Operation      | Java Operator |
-| -------------- | ------------- |
+| Operation        | Java Operator |
+| ---------------- | ------------- |
 | `&&`             | AND           |
-| `||`           | OR            |
+| <code>&#124;&#124;</code>        | OR            |
 | `!`              | NOT           |
 | `^`              | XOR           |
 
