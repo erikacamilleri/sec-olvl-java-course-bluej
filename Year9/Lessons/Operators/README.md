@@ -69,10 +69,10 @@ Returns remainder after integer division. Some examples:
 
 | Operation      | Java Operator |
 | -------------- | ------------- |
-| &&             | AND           |
-| ||             | OR            |
-| !              | NOT           |
-| ^              | XOR           |
+| `&&`             | AND           |
+| `||`           | OR            |
+| `!`              | NOT           |
+| `^`              | XOR           |
 
 # Relational Operators
 
