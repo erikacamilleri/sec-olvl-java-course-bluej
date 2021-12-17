@@ -65,7 +65,16 @@ Returns remainder after integer division. Some examples:
 | 40 % 40        | 0             |
 | 10 % 2         | 0             |
 
+## Usage
+
+```
+x = 10 % 2; // x will be 0
+x = 10 % 3; // x will be 1
+```
+
 # Logical Operators
+
+An operator that works on two boolean operands, or variables. Except for NOT which is the only unary operator, so it gets applied to only one operand.
 
 | Operation        | Java Operator |
 | ---------------- | ------------- |
@@ -76,12 +85,12 @@ Returns remainder after integer division. Some examples:
 
 # Relational Operators
 
-| Expression     | Result        |
+| Expression     | Operator      |
 | -------------- | ------------- |
-| 29 % 9         | 2             |
-| 6 % 8          | 6             |
-| 40 % 40        | 0             |
-| 10 % 2         | 0             |
+| a > b          | Greater than  |
+| a < b          | Less than     |
+| a == b         | Equal         |
+| a != b         | Not equal     |
 
 # Assignment Operators
 
