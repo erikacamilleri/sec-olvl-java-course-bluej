@@ -29,7 +29,6 @@ boolean isYoung = false;
 
 The '=' is an *assignment operator* that puts the value 'false' in a memory location named 'isYoung' in our computer.
 
-
 # Arithmetic Operators
 
 It is very common to need to perform some kind of arithmetic. Java has 4 familiar arithmetic operators plus a remainder operator. Refer to the table below:
@@ -67,6 +66,22 @@ Returns remainder after integer division. Some examples:
 | 10 % 2         | 0             |
 
 # Logical Operators
+
+| Operation      | Java Operator |
+| -------------- | ------------- |
+| &&             | AND           |
+| ||             | OR            |
+| !              | NOT           |
+| ^              | XOR           |
+
+# Relational Operators
+
+| Expression     | Result        |
+| -------------- | ------------- |
+| 29 % 9         | 2             |
+| 6 % 8          | 6             |
+| 40 % 40        | 0             |
+| 10 % 2         | 0             |
 
 # Assignment Operators
 

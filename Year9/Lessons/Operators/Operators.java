@@ -38,6 +38,7 @@ public class Operators
         /**
          * Let us experiment with Logical Operators like AND, OR and NOT
          */
+        // Declaring a boolean variable
         boolean needHeavyRaincoat;
         
         boolean isRaining = true;
@@ -49,12 +50,44 @@ public class Operators
         
         System.out.println("Do I need a heavy rain coat?" + needHeavyRaincoat);
         
-        isRaining = false;
+        isRaining = true;
         
         isCold = false;
         
         boolean needLightRaincoat = isRaining || isCold;
         
-        System.out.println("Do I need a light rain coat?" + needLightRaincoat);
+        // Easy way of checking whether we need a light rain coat today
+        System.out.println("Do I need a light rain coat? " + needLightRaincoat);
+        
+        // This is an if statement, we will do a lesson on this very soon!
+        if (needLightRaincoat) {
+            // This code runs only when needLightRaincoat is true
+            System.out.println("Make sure to take your light rain coat because it is raining or it is cold.");
+        }
+        
+        /**
+         * Practice with Relational Operators
+         */
+        // Using the > operator to check if first value is greater than second value
+        boolean sixIsGreaterThanThree = 6 > 3;
+        
+        // Using the < operator to check if first value is smaller than second value
+        boolean twoIsLessThanFour = 2 < 4;
+        
+        // Using the != to check if the first value is not equal to the second value
+        boolean twoIsNotEqualToFour = 2 != 4;
+        
+        // Using == to check if the first value is equal to the second value
+        boolean isValuesEqual = 2 == 2;
+        
+        // Assign a variable x to 5 and assign a variable y to 8, check which value is greater
+        int x = 5;
+        int y = 8;
+        boolean isXGreaterThanY = x > y;
+        
+        // Assign a variable x to 6 and assign a variable y to 9, check if x and y are equal
+        x = 6;
+        y = 9;
+        boolean isXEqualTo9 = x == y;
     }
 }
