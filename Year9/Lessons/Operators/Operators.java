@@ -48,7 +48,7 @@ public class Operators
         // This is how we do an AND expression
         needHeavyRaincoat = isRaining && isCold;
         
-        System.out.println("Do I need a heavy rain coat?" + needHeavyRaincoat);
+        System.out.println("Do I need a heavy rain coat? " + needHeavyRaincoat);
         
         isRaining = true;
         
@@ -89,5 +89,17 @@ public class Operators
         x = 6;
         y = 9;
         boolean isXEqualTo9 = x == y;
+        
+        /**
+         * Practice with Assignment Operators
+         */
+        a = 2; // Note that I did not type int here, because we already declared a at the top!
+        System.out.println("a is 2, after a += 2 then a is... " + (a += 2));
+        
+        // TODO update 'a' back to 2
+        
+        // TODO update 'a' with triple its current value
+        
+        // TODO perform arithmetic assignment so that 'a' gets updated to 1
     }
 }
