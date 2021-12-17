@@ -85,12 +85,23 @@ An operator that works on two boolean operands, or variables. Except for NOT whi
 
 # Relational Operators
 
+An operator that works on two operands of the same type so that we can make comparisons e.g. which is larger, are they equal?
+
 | Expression     | Operator      |
 | -------------- | ------------- |
 | a > b          | Greater than  |
 | a < b          | Less than     |
 | a == b         | Equal         |
 | a != b         | Not equal     |
+
+## Usage
+
+```
+int a = 3;
+int b = 4;
+
+boolean isGreater = a > b; // will result in false
+```
 
 # Assignment Operators
 
