@@ -97,9 +97,12 @@ public class Operators
         System.out.println("a is 2, after a += 2 then a is... " + (a += 2));
         
         // TODO update 'a' back to 2
+        System.out.println("a is 4, after a /= 2 then a is... " + (a /= 2));
         
         // TODO update 'a' with triple its current value
+        System.out.println("a is 2, after a *= 3 then a is... " + (a *= 3));
         
         // TODO perform arithmetic assignment so that 'a' gets updated to 1
+        System.out.println("a is 6, after a -= 5 then a is... " + (a -= 5));
     }
 }
