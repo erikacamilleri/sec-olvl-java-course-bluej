@@ -8,8 +8,7 @@
  */
 public class Expressions
 {
-    // TODO: There is a mistake in the line below... fix it!
-    public static void main() {
+    public static void main(String[] args) {
         
         // outputting welcome text to the console
         System.out.println("Let's learn about expressions in Java!");
@@ -23,19 +22,27 @@ public class Expressions
         // declaring three variables of the same type, do you know which type they are?
         double price, vat, due; 
         
-        // TODO assign price with a value of 500, and vat with a value of 17.5 right under this comment
+        // assign price with a value of 500, and vat with a value of 17.5 right under this comment
+        price = 500;
+        
+        vat = 17.5;
         
         // expression to calculate amount due, notice the use of variables, operators and numerical values
         due = price + (price * (vat/100));
         
-        // TODO: add the due value to text outputted
-        System.out.println("When price is: " + price + " and vat is: " + vat + " then amount due is: ");
+        // add the due value to text outputted
+        System.out.println("When price is: " + price + " and vat is: " + vat + " then amount due is: " + due);
         
         // *** HARD TASK ***
         // During January sales all prices are discounted by 50%, but we still need to pay vat on the discounted price of the product
-        // TODO print out expression to calculate discounted price
-        // TODO declare and assign a value to a variable to store discount
-        // TODO expression to calculate the update the amount due with the discounted price
+        // print out expression to calculate discounted price
+        System.out.println("I need two expressions for the amount due, first, price = price - (price * (discount/100)) then due = price + (price * vat/100) for the final amount.");
+        // declare and assign a value to a variable to store discount
+        double discount = 50.0;
+        // expression to calculate the update the amount due with the discounted price
+        price = price - (price * (discount/100));
+        due = price + (price * (vat/100));
+        System.out.println("During January sales the discounted price is: " + price + " and vat is: " + vat + " then amount due is: " + due);
         
         // *** FREE STYLE ***
         // TODO: make up your own expression under this comment, make sure to use comments and print out explanations
