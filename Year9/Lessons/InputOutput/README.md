@@ -23,7 +23,7 @@ How can we accept input? Surely if Java provides a feature to display output tha
 
 However, accepting input using Java is not as easy as displaying output. Do not fret, because some kind people came to the rescue. We are going to use a `Keyboard` *class* that was given to us for free! 
 
-[programmer](https://media1.giphy.com/media/XXAKgZR1EbAqmuGBE9/giphy.gif)
+![programmer](https://media1.giphy.com/media/XXAKgZR1EbAqmuGBE9/giphy.gif)
 
 There are some nice people out there. :)
 
