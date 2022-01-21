@@ -23,7 +23,7 @@ How can we accept input? Surely if Java provides a feature to display output tha
 
 However, accepting input using Java is not as easy as displaying output. Do not fret, because some kind people came to the rescue. We are going to use a `Keyboard` *class* that was given to us for free! 
 
-<iframe src="https://giphy.com/embed/XXAKgZR1EbAqmuGBE9" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Verohallinto-superhero-verohallinto-epic-tax-guy-XXAKgZR1EbAqmuGBE9">via GIPHY</a></p>
+[programmer](https://media1.giphy.com/media/XXAKgZR1EbAqmuGBE9/giphy.gif)
 
 There are some nice people out there. :)
 
@@ -61,6 +61,6 @@ int integerInput = Keyboard.readInt();
 | double             | Keyboard.readDouble() | `double doubleInput = Keyboard.readDouble();`|
 | char               | Keyboard.readChar()   | `char charInput = Keyboard.readChar();`   |
 | byte               | Keyboard.readByte()   | `byte byteInput = Keyboard.readByte();`  |
-| String *           | Keyboard.readString() | `String stringInput = Keyboard.readString();`  |
+| String **          | Keyboard.readString() | `String stringInput = Keyboard.readString();`  |
 
-* We will do `String` in more detail next lesson. Notice how the data type is with a captial S... String is also a class in Java. All classes start with a capital letter! It is like a rule in Java.
+** We will do `String` in more detail next lesson. Notice how the data type is with a captial S... String is also a class in Java. All classes start with a capital letter! It is like a rule in Java.
