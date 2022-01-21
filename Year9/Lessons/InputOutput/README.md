@@ -14,27 +14,53 @@ We have also used it to display joined text and variables:
 
 The part `println` tells Java to display text in a new line, ln is line for short. But there are other kinds of *print* that we can use if we really want to.
 
-- `print` (We can use this do display text without moving to a new line)
-- `printf` (We can use this to format text neatly, like in a table format. This is advanced.) 
+- `print` We can use this do display text without moving to a new line
+- `printf` We can use this to format text neatly, like in a table format. This is advanced. But, I bet you are smart enough to follow this [video](https://www.youtube.com/watch?v=g_BsIuRVfvk) if you are up for the challenge! 
 
 ## Accept User Input
 
 How can we accept input? Surely if Java provides a feature to display output that it already provides something for us to use to accept user input from the keyboard. After all, many programs would need this feature! And of course, you are right in thinking this way.
 
-We are going to use a `Keyboard` *class* that was given to us for free! There are some nice people out there. :)
+However, accepting input using Java is not as easy as displaying output. Do not fret, because some kind people came to the rescue. We are going to use a `Keyboard` *class* that was given to us for free! 
 
-To get an instance of the `Scanner` *class* we need to write:
+<iframe src="https://giphy.com/embed/XXAKgZR1EbAqmuGBE9" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Verohallinto-superhero-verohallinto-epic-tax-guy-XXAKgZR1EbAqmuGBE9">via GIPHY</a></p>
 
-`Scanner sc = new Scanner(System.in)`
+There are some nice people out there. :)
 
-I am sure you have heard me say a number of times that Java is an object-oriented language. The `new` keyword in Java is a sign that we are creating one in our program. The object we created with the line above gives us basic features to accept input from the user via the keyboard so that we do not have to worry about how the hardware works. The object hides the complexity of all that. All we have to do is something like:
+You should find the `Keyboard` *class* in this project.
 
-`int age = sc.nextInt();`
+But, wait? What is a class?!
 
-`double salary = sc.nextDouble();`
+This is a long explanation and you will understand what it is in due course. However, I can tell you a few secrets about Java to help you understand.
 
-Unfortunately, Java does not give us a nice and easy function to accept a character from the user. It is is a little bit more meaty...
+   1. A class is a .java file of code with one or many code blocks.
+   2. Java is an object-oriented language and we create classes to *model* real world objects.
+   3. We have already used classes given to us by Java to display output. The class is called `System`.
 
-`char c = sc.next().charAt(0);`
+### How to use the Keyboard class?
 
-You will probably understand the line above much better once we talk about another whidely used class called the `String` class in the next lesson!
+When you include the `Keyboard` class in your project then is very easy to use, and pretty similar to using `System`.
+
+Here is an example of accepting an integer from the user and putting it in a variable:
+
+`int integerInput = Keyboard.readInt();`
+
+It is always a good idea to let the user know you are accepting input. So make sure to <b>display</b> prompt messages like so:
+
+```
+// display message to ask user to input an integer
+System.out.println("Please input a whole number: ");
+// put the number typed in by the user in a variable
+int integerInput = Keyboard.readInt();
+```
+
+| Type of input      | Keyboard block to use | Syntax                                    |
+| ------------------ | --------------------- |------------------------------------------ |
+| int                | Keyboard.readInt()    | `ìnt integerInput = Keyboard.readInt();`  |
+| float              | Keyboard.readFloat()  | `float floatInput = Keyboard.readFloat();`|
+| double             | Keyboard.readDouble() | `double doubleInput = Keyboard.readDouble();`|
+| char               | Keyboard.readChar()   | `char charInput = Keyboard.readChar();`   |
+| byte               | Keyboard.readByte()   | `byte byteInput = Keyboard.readByte();`  |
+| String *           | Keyboard.readString() | `String stringInput = Keyboard.readString();`  |
+
+* We will do `String` in more detail next lesson. Notice how the data type is with a captial S... String is also a class in Java. All classes start with a capital letter! It is like a rule in Java.
