@@ -63,4 +63,27 @@ int integerInput = Keyboard.readInt();
 | byte               | Keyboard.readByte()   | `byte byteInput = Keyboard.readByte();`  |
 | String **          | Keyboard.readString() | `String stringInput = Keyboard.readString();`  |
 
+### The Scanner Class
+
+Java does provide something for us to use to accept user input from the keyboard. It is just a little tricky to use at first.
+
+Java provides a `Scanner` *class* in a package called `util`. To access it place the following line at the very beggining of your class file:
+
+`import java.util.Scanner`
+
+To get an instance of the `Scanner` *class* we need to write:
+
+`Scanner sc = new Scanner(System.in)`
+
+I am sure you have heard me say a number of times that Java is an object-oriented language. The `new` keyword in Java is a sign that we are creating an object in our program. The object we created with the line above gives us basic features to accept input from the user via the keyboard so that we do not have to worry about how the hardware works. The object hides the complexity of all that. All we have to do is something like:
+
+`int age = sc.nextInt();`
+
+`double salary = sc.nextDouble();`
+
+Unfortunately, Java does not give us a nice and easy function to accept a character from the user. It is is a little bit more meaty...
+
+`char c = sc.next().charAt(0);`
+
 ** We will do `String` in more detail next lesson. Notice how the data type is with a captial S... String is also a class in Java. All classes start with a capital letter! It is like a rule in Java.
+** You will probably understand the line above much better once we talk about another widely used class called the `String` class in the next lesson!
