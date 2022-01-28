@@ -18,7 +18,8 @@ public class PriceCalculator
         // Do you remember what final means from the second lesson? If you don't, go back and revise!
         final double VAT = 17.5;
         
-        // TODO (Easy): Display a friendly message like "Welcome to our Price Calculator!" so that the user feels welcome :)
+        // Display a friendly message like "Welcome to our Price Calculator!" so that the user feels welcome :)
+        System.out.println("Welcome to our Price Calculator!");
         
         // Instruct the user to input information for our program to process
         System.out.println("Please enter a value for price before VAT: ");
@@ -26,9 +27,15 @@ public class PriceCalculator
         // We are using the Keyboard class to read a value like 12.54 given by a user
         double priceBeforeVat = Keyboard.readDouble();
         
-        // TODO (Easy): Find the expression to calculate final price (from the previous lesson) and assign it to a variable of type double called priceAfterVat
+        // Find the expression to calculate final price (from the previous lesson) and assign it to a variable of type double called priceAfterVat
+        double priceAfterVat = priceBeforeVat + (priceBeforeVat * (VAT/100));
         
-        // TODO (Easy): Display the priceAfterVat **next to** a user friendly message e.g. "The price after vat is: "
+        // Display the priceAfterVat **next to** a user friendly message e.g. "The price after vat is: "
+        System.out.print("The price after vat is: ");
+        System.out.println(priceAfterVat);
+        
+        // Another way
+        System.out.println("The price after vat is: " + priceAfterVat);
         
         System.out.println("Please enter a value for discount: ");
         
