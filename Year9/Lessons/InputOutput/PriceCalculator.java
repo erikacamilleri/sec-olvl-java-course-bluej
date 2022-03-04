@@ -39,12 +39,12 @@ public class PriceCalculator
         
         System.out.println("Please enter a value for discount: ");
         
-        // TODO (Hard): Declare and assign a variable called discount and use the Keyboard class to accept an int from the user
+        // Declare and assign a variable called discount and use the Keyboard class to accept an int from the user
+        int discount = Keyboard.readInt();
         
-        // TODO (Hard): Declare and assign a variable of type double called discountedPrice and write an expression to apply the discount
+        // Declare and assign a variable of type double called discountedPrice and write an expression to apply the discount
+        double discountedPrice = priceAfterVat - (priceAfterVat * (discount/100));
         
-        // double discountedPriceAfterVat = discountedPrice + (discountedPrice * (VAT/100));
-        
-        // System.out.println("The discounted price after VAT is: " + discountedPriceAfterVat);
+        System.out.println("The discounted price after VAT is: " + discountedPrice);
     }
 }
