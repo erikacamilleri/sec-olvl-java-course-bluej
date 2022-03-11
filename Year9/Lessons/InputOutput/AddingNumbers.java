@@ -11,16 +11,24 @@ public class AddingNumbers
 {
     public static void main(String[] args) {
         
-        // TODO: Declare two variables of type double call them a, and b
+        // Declare two variables of type double call them a, and b
+        double a, b;
         
-        // TODO: Display a message to the user to describe what the program does
+        // Display a message to the user to describe what the program does
+        System.out.println("This program adds two numbers of your choice!");
         
-        // TODO: Ask the user to input a number, and store the keyed in value in a
+        // Ask the user to input a number, and store the keyed in value in a
+        System.out.println("Insert the value of a");
+        a = Keyboard.readDouble();
         
-        // TODO: Ask the user to input another number, and store the keyed in value in b
+        // Ask the user to input another number, and store the keyed in value in b
+        System.out.println("Insert the value of b");
+        b = Keyboard.readDouble();
         
-        // TODO: Perform addition and store the result in a new variable
+        // Perform addition and store the result in a new variable
+        double c = a + b;
         
-        // TODO: Display the result back to the user e.g. "Addition of 5 and 2 is 7"
+        // Display the result back to the user e.g. "Addition of 5 and 2 is 7"
+        System.out.println("Addition of " + a + " and " + b + " is " + c);
     }
 }
