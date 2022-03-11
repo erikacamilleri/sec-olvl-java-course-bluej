@@ -24,24 +24,42 @@ public class MyComputerScienceResult
         System.out.println("Insert a mark between 0 and 5 for your behaviour...");
         marksForMyBehaviour = Keyboard.readInt();
         
-        // TODO: Let me insert my marks for worksheets
+        // Let me insert my marks for worksheets
+        System.out.println("Insert a mark between 0 and 5 for worksheets...");
+        marksForWorksheets = Keyboard.readInt();
 
-        // TODO: Let me insert my marks for paying attention
+        // Let me insert my marks for paying attention
+        System.out.println("Insert a mark between 0 and 5 for paying attention...");
+        marksForPayingAttention = Keyboard.readInt();
         
-        // TODO: Let me insert my marks for programming
+        // Let me insert my marks for programming
+        System.out.println("Insert a mark between 0 and 5 for programming...");
+        marksForProgramming = Keyboard.readInt();
         
-        // TODO: Let me insert my marks for exam
+        // Let me insert my marks for exam
+        System.out.println("Insert a mark between 0 and 80 for exam...");
+        marksForExam = Keyboard.readInt();
         
-        // TODO: Do you see a small mistake here?
-        int myTotalMark = marksForMyBehaviour + marksForWorksheets + marksForPayingAttention - marksForProgramming + marksForExam;
+        // Do you see a small mistake here?
+        int myTotalMark = marksForMyBehaviour + marksForWorksheets + marksForPayingAttention + marksForProgramming + marksForExam;
         
-        // TODO: If myTotalMark is over 70 then I did very well!
+        // If myTotalMark is over 70 then I did very well!
+        if (myTotalMark > 70) {
+            System.out.println("I did very well!");
+        }
         
-        // TODO: If myTotalMark is over 50 then I passed ok!
+        if (myTotalMark <= 70 && myTotalMark > 50) {
+            System.out.println("I passed ok!");
+        }
         
-        // TODO: If myTotalMark is over 45 then I failed but can improve by studying a bit more!
+        // If myTotalMark is over 45 then I failed but can improve by studying a bit more!
+        if (myTotalMark <= 50 && myTotalMark > 45) {
+            System.out.println("I failed but can improve by studying a bit more!");
+        }
         
-        // TODO: If myTotalMark is less than 45 then I failed and did not understand!
-        
+        // If myTotalMark is less than 45 then I failed and did not understand!
+        if (myTotalMark <= 45) {
+            System.out.println("I failed and did not understand!");
+        }
     }
 }
