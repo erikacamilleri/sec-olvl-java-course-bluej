@@ -11,7 +11,7 @@ In Java we can code decision making in a few ways...
 
 1. an if statement
 2. an if ... else statement
-3. a switch statement (coming soon)
+3. a switch statement
 
 ## The IF statement
 
@@ -57,7 +57,7 @@ switch(/* a variable to check */) {
 ```
 Why not try it out to check whether your code looks neater?
 
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/cpp-switch-flowchart.png">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/cpp-switch-flowchart.png" height="200" width="auto">
 
 # Arithmetic Comparison and Boolean Logic
 
