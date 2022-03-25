@@ -10,7 +10,6 @@
 public class PasswordConfirmation
 {
     public static void main(String[] args) {
-        
         // Declaring a variable password of type String
         String password = "";
         
@@ -22,7 +21,7 @@ public class PasswordConfirmation
         password = Keyboard.readString();
         
         // Ask the user to type it again and store it in confirmPassword
-        System.out.println("Please type it again");
+        System.out.println("Please type it again:");
         confirmPassword = Keyboard.readString();
         
         // Check if they are equal

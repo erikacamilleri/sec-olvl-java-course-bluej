@@ -33,40 +33,39 @@ public class MealPlan
             }
             case 3: {
                 // Wednesday
-                System.out.println("A nice bowl of Wedding Soup for Wednesdays.");
+                System.out.println("A nice bowl of **wedding soup** goes down a treat on Wednesdays.");
                 break;
             }
             case 4: {
                 // Thursday
-                System.out.println("A bit more to the weekend, so Pizza Thursdays it is!");
+                System.out.println("A bit more to the weekend, so **chopped salad pizza** for Pizza Thursdays!");
                 break;
             }
             case 5: {
                 // Friday
-                System.out.println("Tough week! Lets have some fried food... so Fried Chicken and Fries on Friday.");
+                System.out.println("Tough week! Let's have some **fried chicken and fries** on Friday.");
                 break;
             }
             case 6: {
                 // Saturday
-                System.out.println("Smoothies and healthy sandwiches for Saturday.");
+                System.out.println("Let's have **smoothies and healthy sandwiches** on Saturday.");
                 break;
             }
             case 7: {
                 // Sunday
-                System.out.println("Posh salmon wellington for Sunday!");
+                System.out.println("Defintely posh **salmon wellington** for Sunday!");
                 break;
             }
         }
         
         // The program will ask the user for feedback
         System.out.println("Did you like my suggestion? Press 'y' for yes.");
-        
         char userRating = Keyboard.readChar();
         
         if (userRating == 'y') {
-            // TODO: Display a message like "All right! See you at dinner!"
+            System.out.println("All right! Enjoy your dinner.");
         } else {
-            // TODO: Display a message like "Pff... you are silly. Next time don't ask!"
+            System.out.println("Pff... you are silly. Next time don't ask!");
         }
     }
 }
