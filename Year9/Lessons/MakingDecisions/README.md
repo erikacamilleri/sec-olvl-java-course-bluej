@@ -57,7 +57,7 @@ switch(/* a variable to check */) {
 ```
 Why not try it out to check whether your code looks neater?
 
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/cpp-switch-flowchart.png" height="200" width="auto">
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/cpp-switch-flowchart.png" height="500" width="auto">
 
 # Arithmetic Comparison and Boolean Logic
 
