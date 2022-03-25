@@ -30,10 +30,34 @@ if (/* boolean logic goes here (hello again chapter 10) */) {
     // instruction(s) that only get invoked when false
 }
 ```
+<img src="https://static.javatpoint.com/tutorial/arduino/images/arduino-if-else-and-else-if.png" />
 
 ## The SWITCH statement
 
-Coming Soon
+Do you find yourself doing too many IF statements nested into each other? Or too many IF...ELSE statements? Maybe you need a switch! A switch statement tests whether a given variable has a particular value from a possible set of values. This works very well with three or more values, for example, checking the day of the week of a particular date!
+
+```
+switch(/* a variable to check */) {
+    case valueOne : {
+        // instruction(s) that only get invoked when variable has valueOne
+        break; // use break to get out of the switch when there is a match
+    }
+    case valueTwo : {
+        // instruction(s) that only get invoked when variable has valueTwo
+        break;
+    }
+    case valueThree : {
+        // instruction(s) that only get invoked when variable has valueThree
+        break;
+    }
+    default : {
+        // instruction(s) that only get invoked when variable has none of values
+    }
+}
+```
+Why not try it out to check whether your code looks neater?
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/cpp-switch-flowchart.png">
 
 # Arithmetic Comparison and Boolean Logic
 
