@@ -8,7 +8,8 @@
 public class MealPlan
 {
     public static void main(String[] args) {
-        // TODO: Declare a variable of type int and call it dayOfWeek (1 would be Monday and 7 would be Sunday)
+        // Declare a variable of type int and call it dayOfWeek (1 would be Monday and 7 would be Sunday)
+        int dayOfWeek = 0;
         
         // A message to explain what the program does
         System.out.println("Let me give you an idea of what to have for dinner!");
@@ -16,7 +17,9 @@ public class MealPlan
         // A message to the user to prompt for day of week
         System.out.println("What day of the week is it today? Key in a value from 1 (Mon) to 7 (Sun).");
         
-        // TODO: Use the Keyboard class 
+        // Use the Keyboard class to accept an integer from the user and store it in dayOfWeek
+        dayOfWeek = Keyboard.readInt();
+        
         switch(dayOfWeek) {
             case 1: {
                 // Monday
@@ -24,10 +27,35 @@ public class MealPlan
                 break;
             }
             case 2: {
-                // TODO: Display a message that says "Why not try **chicken tacos** for Taco Tuesdays?"
+                // Tuesday
+                System.out.println("Why not try **chicken tacos** for Taco Tuesdays.");
                 break;
             }
-            // TODO: Do the rest of the cases :). Let the teacher know what you would like for dinner on certain days.
+            case 3: {
+                // Wednesday
+                System.out.println("A nice bowl of Wedding Soup for Wednesdays.");
+                break;
+            }
+            case 4: {
+                // Thursday
+                System.out.println("A bit more to the weekend, so Pizza Thursdays it is!");
+                break;
+            }
+            case 5: {
+                // Friday
+                System.out.println("Tough week! Lets have some fried food... so Fried Chicken and Fries on Friday.");
+                break;
+            }
+            case 6: {
+                // Saturday
+                System.out.println("Smoothies and healthy sandwiches for Saturday.");
+                break;
+            }
+            case 7: {
+                // Sunday
+                System.out.println("Posh salmon wellington for Sunday!");
+                break;
+            }
         }
         
         // The program will ask the user for feedback

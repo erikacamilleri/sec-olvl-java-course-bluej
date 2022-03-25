@@ -2,7 +2,7 @@
 /**
  * In this program a user will type in a password twice and get back whether password is confirmed or not.
  *
- * @author Your Name
+ * @author Ms Camilleri
  * @version 11.03.2022
  * 
  * Level Easy
@@ -14,17 +14,22 @@ public class PasswordConfirmation
         // Declaring a variable password of type String
         String password = "";
         
-        // TODO: Declaring a variable confirmPassword of type String
+        // Declaring a variable confirmPassword of type String
+        String confirmPassword = "";
         
         // Ask the user to type in a password...
         System.out.println("Please type in your password:");
         password = Keyboard.readString();
         
-        // TODO: Ask the user to type it again and store it in confirmPassword
+        // Ask the user to type it again and store it in confirmPassword
+        System.out.println("Please type it again");
+        confirmPassword = Keyboard.readString();
         
         // Check if they are equal
-        if (/* TODO: Replace me with the condition */) {
+        if (password.equals(confirmPassword)) {
             System.out.println("Password confirmed!");
-        } // TODO: Replace me with the else part of the if statement and display a message "Passwords do not match!"
+        } else {
+            System.out.println("Passwords do not match!");
+        }
     }
 }
