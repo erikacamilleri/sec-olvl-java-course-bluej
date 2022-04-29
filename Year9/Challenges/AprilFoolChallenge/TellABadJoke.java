@@ -24,17 +24,24 @@ public class TellABadJoke
         
         // The condition to check if today is indeed April Fool's
         if (todayMonth == 3 && todayDay == 1) {
-            // TODO: Display a message to the user to ask whether they would like to hear a joke
+            // Display a message to the user to ask whether they would like to hear a joke
+            System.out.println("Would you like to hear a joke? Press 'y' for yes and 'n' for no.");
             
-            // TODO: Use the Keyboard class to accept a 'y' for yes and an 'n' for no. Store the user's answer in a char variable called hearJoke
+            // Use the Keyboard class to accept a 'y' for yes and an 'n' for no. Store the user's answer in a char variable called hearJoke
+            char hearJoke = Keyboard.readChar();
             
-            // TODO: Write an if statement, if hearJoke is 'y' then display "Sure thing! Oh this is a good one..."
-            // TODO: In the else part display a message "Joke is on you, because I am going to tell you one anyway!"
+            // Write an if statement, if hearJoke is 'y' then display "Sure thing! Oh this is going to be good... (not really)"
+            // In the else part display a message "Joke is on you, because I am going to tell you one anyway!"
+            if(hearJoke == 'y') {
+                System.out.println("Sure thing! Oh this is going to be good... (not really)");
+            } else {
+                System.out.println("Joke is on you, because I am going to tell you one anyway!");
+            }
             
-            // This is code to get a random number between 
-            int jokeNumber = (int) Math.random() * 5;
+            // This is code to get a random number between 0 and 4
+            int jokeNumber = (int)(Math.random() * 5);
             
-            switch(/* TODO: Place jokeNumber */) {
+            switch(jokeNumber) {
                 case 0: {
                     System.out.println("Q: Which day of the year do monkeys like best?");
                     System.out.println("A: The first of APE-ril.");
@@ -56,12 +63,11 @@ public class TellABadJoke
                     break;
                 }
                 case 4: {
-                    // TODO: Do you know a ***clean*** joke? Place it here and show your teacher! If she laughs, you lose! Kidding, you win. ;)
-                    // https://www.rd.com/article/amusing-april-fools-humor/
+                    System.out.println("Q: Why is April Fools’ Day like a huge open mic night?");
+                    System.out.println("A: Millions of people go out of their way to demonstrate how unfunny they are.");
                     break;
                 }
             }
-            
             // Display a message to end the program
             System.out.println("Hope you liked my joke. Bye bye. See you next year!");
             
