@@ -10,7 +10,7 @@ if (temperature >= 26) {
 
 In reality, any valid Java commands can be inserted in between the `{ ... }` curly brackets. Even another `if` statement, so an `if` inside an `if`. This form of control is referred to as *nesting*. With nesting we are able to program very complex decisions. Beware, they can get a bit *too complex* but don't worry, you are ready for this!
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Fi-was-born-for-this&psig=AOvVaw0LoJByYElwpiNFPgXl7aaH&ust=1651304613497000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjejpnjuPcCFQAAAAAdAAAAABAD">
+<img src="https://media.giphy.com/media/YPahwXZZ5zyySJRRB7/giphy.gif">
 
 Here is an example of a program that asks a student to enter his or her lab group and depending on the group the program displays the correct lesson time and room number:
 
