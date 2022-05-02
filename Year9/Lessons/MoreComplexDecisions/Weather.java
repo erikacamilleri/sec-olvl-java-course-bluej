@@ -23,12 +23,17 @@ public class Weather
         boolean isSunny = Keyboard.readBoolean();
         System.out.println(""); // skip a line for neatness
         
-        // TODO: Ask the user if it is warm right now...
-        // TODO: Retreive user input from the keyboard and store it in a boolean variable called isWarm
+        // Ask the user if it is warm right now...
+        System.out.print("Is it warm right now? Please type 'true' or 'false': ");
+        // Retreive user input from the keyboard and store it in a boolean variable called isWarm
+        boolean isWarm = Keyboard.readBoolean();
         System.out.println(""); // skip a line for neatness
         
         if(isSunny) {
-            // TODO: Check here if isWarm is also true, if so, it means it is sunny and warm so display a message that says "It is sunny and warm!"
+            // Check here if isWarm is also true, if so, it means it is sunny and warm so display a message that says "It is sunny and warm!"
+            if(isWarm) {
+                System.out.println("It is sunny and warm!");
+            }
         }
         
         // Display message to let the user know the program finished
