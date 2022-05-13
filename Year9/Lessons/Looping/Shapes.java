@@ -12,7 +12,7 @@ public class Shapes
         System.out.println("******** Simple Shapes I Can Draw *********");
         System.out.println();
         
-        // TODO output "Please enter a shape and I will try to draw it for you."
+        System.out.println("Please enter a shape and I will try to draw it for you.");
         String shape = Keyboard.readString();
         
         switch(shape) {
@@ -26,11 +26,22 @@ public class Shapes
                 break;
             }
             case "square": {
-                // TODO output "I know how to draw a square using a for loop"
-                // TODO loop i from 1 up to 4 and output "* * * *"
+                System.out.println("I know how to draw a square using a for loop:");
+                for(int i = 1; i <= 4; i++) {
+                    System.out.println("* * * *");
+                }
                 break;
             }
-            // TODO A case for "triangle", can you figure out what loop you need?
+            case "triangle": {
+                System.out.println("I know how to draw a triangle using a for loop:");
+                for (int i = 1; i <= 3; i++) {
+                    for (int j = 1; j < i; j++) {
+                        System.out.print("* ");
+                    }
+                    System.out.println("");
+                }
+                break;
+            }
             default : {
                 System.out.println("Sorry, I do not know how to draw that!");
             }
